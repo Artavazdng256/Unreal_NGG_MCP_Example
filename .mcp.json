@@ -2,12 +2,13 @@
   "mcpServers": {
     "ue5-ngg": {
       "command": "node",
-      "args": ["Plugins/UnrealNGGMCP/Tools/unrealngg-mcp/bootstrap.js"],
+      "args": ["Plugins/UnrealNGGMCP/Source/ThirdParty/unrealngg-mcp/bootstrap.js"],
       "cwd": ".",
       "env": {
         "NGG_BRIDGE_URL": "http://localhost:6776",
         "NGG_BRIDGE_TIMEOUT_MS": "15000",
-        "NGG_BRIDGE_TOKEN": "5c9b47adb4427401325ed4278f0990c1700f9b5549961d36af8173f990975b11"
+        "NGG_BRIDGE_TOKEN": "5c9b47adb4427401325ed4278f0990c1700f9b5549961d36af8173f990975b11",
+        "MESHY_API_KEY": ""
       }
     }
   }
